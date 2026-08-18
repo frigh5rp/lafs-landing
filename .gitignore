@@ -1,0 +1,10 @@
+﻿.DS_Store
+Thumbs.db
+*.apk
+downloads/
+.env
+.env.*
+!.env.example
+node_modules/
+.idea/
+.vscode/

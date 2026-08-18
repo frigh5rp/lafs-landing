@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lafs.tech/sitemap.xml
+
+Host: https://lafs.tech

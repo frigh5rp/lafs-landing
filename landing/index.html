@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LAFS — приложение для голосовых знакомств рядом</title>
+  <meta name="description" content="LAFS (Love At First Sight) — голосовые знакомства с людьми рядом. Скачайте приложение для Android или откройте веб-версию." />
+  <meta name="keywords" content="LAFS, Love At First Sight, знакомства, голосовые знакомства, приложение знакомств, знакомства рядом, Android" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="google-site-verification" content="zCBzc6b6goY9r3k-kzfeqHsSmSs2i7o5gS7Ocp6K9mc" />
+  <meta name="yandex-verification" content="1ba4bba5922d2e12" />
+  <meta name="yandex" content="index, follow" />
+  <meta name="author" content="LAFS" />
+  <meta name="theme-color" content="#0b0c10" />
+  <link rel="canonical" href="https://lafs.tech/" />
+  <link rel="alternate" hreflang="ru" href="https://lafs.tech/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="LAFS" />
+  <meta property="og:url" content="https://lafs.tech/" />
+  <meta property="og:title" content="LAFS — голосовые знакомства рядом" />
+  <meta property="og:description" content="Love At First Sight: знакомьтесь голосом с теми, кто рядом. Android и веб." />
+  <meta property="og:image" content="https://lafs.tech/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LAFS — голосовые знакомства рядом" />
+  <meta name="twitter:description" content="Love At First Sight: знакомьтесь голосом с теми, кто рядом." />
+  <meta name="twitter:image" content="https://lafs.tech/og.png" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://lafs.tech/#website",
+        "url": "https://lafs.tech/",
+        "name": "LAFS",
+        "alternateName": ["Love At First Sight", "LAFS app"],
+        "description": "Голосовые знакомства с людьми рядом",
+        "inLanguage": "ru-RU",
+        "publisher": { "@id": "https://lafs.tech/#org" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://lafs.tech/#org",
+        "name": "LAFS",
+        "url": "https://lafs.tech/",
+        "logo": "https://lafs.tech/favicon.png"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "LAFS",
+        "operatingSystem": "Android, Web",
+        "applicationCategory": "SocialNetworkingApplication",
+        "description": "Приложение для голосовых знакомств с людьми поблизости",
+        "url": "https://lafs.tech/",
+        "downloadUrl": "https://lafs.tech/downloads/LAFS-release.apk",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "RUB"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg0: #0b0c10;
+      --bg1: #151821;
+      --pink: #ff4d8d;
+      --pink2: #ff7ab0;
+      --text: #f5f6fa;
+      --muted: #a8aebc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: Manrope, system-ui, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(255,77,141,.28), transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, rgba(88,101,242,.18), transparent 50%),
+        linear-gradient(160deg, var(--bg0), var(--bg1));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+    .wrap {
+      width: min(560px, 100%);
+      text-align: center;
+      animation: rise .7s ease both;
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: none; }
+    }
+    .brand {
+      font-family: Syne, sans-serif;
+      font-weight: 800;
+      font-size: clamp(3.2rem, 12vw, 4.6rem);
+      letter-spacing: -0.04em;
+      line-height: 0.95;
+      background: linear-gradient(120deg, #fff 10%, var(--pink2) 55%, var(--pink));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 14px;
+    }
+    .tag {
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.5;
+      margin-bottom: 28px;
+    }
+    .seo {
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.55;
+      margin-bottom: 28px;
+      text-align: left;
+    }
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      border-radius: 14px;
+      padding: 16px 22px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+    a.btn:hover { transform: translateY(-1px); }
+    a.primary {
+      color: #fff;
+      background: linear-gradient(135deg, var(--pink), #e11d74);
+      box-shadow: 0 12px 30px rgba(255,77,141,.28);
+    }
+    a.secondary {
+      color: var(--text);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .note a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1 class="brand">LAFS</h1>
+    <p class="tag">Love At First Sight — голосовые знакомства, когда вы рядом.</p>
+    <p class="seo">
+      LAFS — приложение для знакомств: найдите человека рядом и познакомьтесь голосом.
+      Доступны версия для Android и веб на app.lafs.tech.
+    </p>
+    <div class="actions">
+      <a class="btn primary" href="/downloads/LAFS-release.apk" download>Скачать для Android</a>
+      <a class="btn secondary" href="https://app.lafs.tech">Открыть веб-версию</a>
+    </div>
+    <p class="note" style="margin-top:12px;font-size:.8rem;opacity:.7">Продавец: плательщик НПД (самозанятый), ИНН 100128550787</p>
+    <p class="note" style="margin-top:8px;font-size:.8rem;opacity:.7">
+      <a href="/legal/terms.html">Пользовательское соглашение</a>
+      ·
+      <a href="/legal/privacy.html">Политика конфиденциальности</a>
+    </p>
+  </main>
+</body>
+</html>

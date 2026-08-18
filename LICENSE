@@ -1,0 +1,25 @@
+﻿Copyright (c) 2026 LAFS authors.
+
+## What this means
+
+Under copyright law (including RF Civil Code), the authors automatically hold
+copyright in the original materials in this repository (site markup, legal text,
+UI source files, graphics created for LAFS).
+
+No open-source license is granted. By default, others may view the repository
+on GitHub. Copying, redistributing, or using these materials in another product
+without permission is not allowed — same as for any proprietary work.
+
+## What this does NOT mean
+
+- The product *idea* (voice dating nearby) is not protected by this file.
+- Brand name / trademark protection is separate: this file is not a trademark
+  registration certificate.
+- Patents are not claimed here.
+- Publishing code on GitHub does not by itself stop someone from rebuilding a
+  similar app from scratch.
+
+## Practical notice
+
+If you want to reuse any part of this repository, ask the authors first.
+The full LAFS application, server, and admin tooling are not published here.
